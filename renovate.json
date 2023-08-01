@@ -3,4 +3,12 @@
   "extends": [
     "config:base"
   ]
+  "regexManagers": [
+    {
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": ["ENV TURBO_VERSION=(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "turbo",
+      "datasourceTemplate": "npm"
+    }
+  ]
 }
