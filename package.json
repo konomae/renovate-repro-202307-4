@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "turbo": "1.10.11"
+    "turbo": "1.10.12"
   }
 }
